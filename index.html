@@ -7,18 +7,20 @@
 </head>
 <style>
     body{background-color: darkslategray;}
+    h1{color: darkgoldenrod;font-style: italic;}
+    .heading{color: darkgoldenrod;font-style: italic;}
     .list1{color: #2e9ce6; background-color: rgb(61, 61, 201);}
     .list2{color: rgb(223, 81, 30); background-color: rgb(223, 177, 92);}
     .list3{color: rgb(175, 59, 13);background-color: salmon;}
     .list4{color: indigo;background-color: blueviolet;}
     .list5{color: rgb(3, 102, 81); background-color: rgb(4, 235, 127);}
-    #heading{
-        font-style: italic; color: darkgoldenrod;
+    #table{
+        background-color: gainsboro;
     }
 </style>
 <body>
-    <h1 id="heading">Windows History</h1>
-    <h2 id="heading">This is a short timeline of the major leaps made in Microsoft's Windows OS overtime.</h2>
+    <h1>Windows History</h1>
+    <h2 class="heading">This is a short timeline of the major leaps made in Microsoft's Windows OS overtime.</h2>
     <ul>
         <li class="list1"><h2>Windows 1.0</h2>
         <a href="https://en.wikipedia.org/wiki/Microsoft_Windows_version_history#/media/File:Windows_logo_-_1985-1989.svg">
@@ -51,7 +53,7 @@
             <p>Microsoft. Windows_10_Logo. 2014. https://en.wikipedia.org/wiki/Windows_10#/media/File:Windows_10_Logo.svg</p>
             <p>Windows 10 didn't add much except for smoother performance but it still did well.</p></li>
     </ul>
-    <table border="2px">
+    <table id="table" border="2px">
         <tr>
             <td>Windows 1.0</td><td>Windows 95</td><td>Windows Vista</td><td>Windows 7</td><td>Windows 10</td>
         </tr>
