@@ -1,0 +1,27 @@
+body{
+    background-color: darkslategray;
+}
+h1{
+    color: darkgoldenrod;font-style: italic;
+}
+.heading{
+    color: darkgoldenrod;font-style: italic;
+}
+.list1{
+    color: #2e9ce6; background-color: rgb(61, 61, 201);
+}
+.list2{
+    color: rgb(223, 81, 30); background-color: rgb(223, 177, 92);
+}
+.list3{
+    color: rgb(175, 59, 13);background-color: salmon;
+}
+.list4{
+    color: indigo;background-color: blueviolet;
+}
+.list5{
+    color: rgb(3, 102, 81); background-color: rgb(4, 235, 127);
+}
+#table{
+    background-color: gainsboro; height: 100px;
+}
