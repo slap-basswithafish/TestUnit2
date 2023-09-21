@@ -25,3 +25,11 @@ h1{
 #table{
     background-color: gainsboro; height: 100px;
 }
+.header{
+    color:red;
+    text-align: center;
+    
+}
+.header:hover{
+    color:skyblue;
+}
