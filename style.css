@@ -28,8 +28,21 @@ h1{
 .header{
     color:red;
     text-align: center;
+    size:40px;
+    font-family:fantasy;
     
 }
 .header:hover{
     color:skyblue;
+}
+.main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    text-align:center;
+    font-size: medium;
+}
+.footer{
+    text-align:center;
 }
